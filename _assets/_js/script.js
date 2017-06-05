@@ -1,10 +1,13 @@
 //CHANGE ABOUT ME IMAGE
 		var myImage = document.getElementById("aboutImage");
 
-		var imageArray = ["_assets/_media/reno.png", "_assets/_media/bunny.png", 
-		"_assets/_media/kayak.png", "_assets/_media/mydogs.png", "_assets/_media/hamburger.png", 
-		"_assets/_media/ffdr.png", "_assets/_media/blue.png", "_assets/_media/ozzie.png", 
-		"_assets/_media/sunflowers.png","_assets/_media/wicked.png"];
+		var imageArray = ["https://rawgit.com/dmj1209/dmj1209.github.io/master/_assets/_media/reno.png", 
+				  "https://rawgit.com/dmj1209/dmj1209.github.io/master/_assets/_media/bunny.png", 
+		"https://rawgit.com/dmj1209/dmj1209.github.io/master/_assets/_media/kayak.png",
+				  "https://rawgit.com/dmj1209/dmj1209.github.io/master/_assets/_media/mydogs.png", "_assets/_media/hamburger.png", 
+		"https://rawgit.com/dmj1209/dmj1209.github.io/master/_assets/_media/ffdr.png", 
+				  "https://rawgit.com/dmj1209/dmj1209.github.io/master/_assets/_media/blue.png", "_assets/_media/ozzie.png", 
+		"https://rawgit.com/dmj1209/dmj1209.github.io/master/_assets/_media/sunflowers.png","_assets/_media/wicked.png"];
 		var imageIndex = 0;
 
 		function changeImage() {
