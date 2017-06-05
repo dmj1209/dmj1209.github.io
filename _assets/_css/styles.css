@@ -3,13 +3,13 @@
 /*FONTS*/
 @font-face{
 	font-family: "blackjack";
-	src: url("_assets/_fonts/black_jack.ttf");
+	src: url("https://rawgit.com/dmj1209/dmj1209.github.io/master/_assets/_fonts/black_jack.ttf");
 	font-family: "pacifico";
-	src: url("_assets/_fonts/pacifico.ttf");
+	src: url("https://rawgit.com/dmj1209/dmj1209.github.io/master/_assets/_fonts/pacifico.ttf");
 	font-family: "Arcon";
-	src: url("_assets/_fonts/Arcon-Regular.ttf");
+	src: url("https://rawgit.com/dmj1209/dmj1209.github.io/master/_assets/_fonts/Arcon-Regular.ttf");
 	font-family: "Arcon-Rounded";
-	src: url("_assets/_fonts/arcon-rounded-regular.ttf");
+	src: url("https://rawgit.com/dmj1209/dmj1209.github.io/master/_assets/_fonts/arcon-rounded-regular.ttf");
 }
 
 /* GENERAL TAGS*/
