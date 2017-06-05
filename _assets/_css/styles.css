@@ -1,0 +1,239 @@
+ @charset "UTF-8";
+
+/*FONTS*/
+@font-face{
+	font-family: "blackjack";
+	src: url("_assets/_fonts/black_jack.ttf");
+	font-family: "pacifico";
+	src: url("_assets/_fonts/pacifico.ttf");
+	font-family: "Arcon";
+	src: url("_assets/_fonts/Arcon-Regular.ttf");
+	font-family: "Arcon-Rounded";
+	src: url("_assets/_fonts/arcon-rounded-regular.ttf");
+}
+
+/* GENERAL TAGS*/
+body{
+	font-family: "Arcon", "Century Gothic", Arial;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 15%;
+	font-size: 16px;
+}
+nav ul{
+	margin: 0;
+	text-align: center;
+	margin-top: 32px;
+	padding-bottom: 20px;
+}
+nav ul li{
+	list-style-type: none;
+	display: inline;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 1.1em;
+	text-transform: uppercase;
+}
+p{font-size: 1.2em;}
+#info p{font-size: 1em;}
+h1{
+	font-family: "pacifico", "blackjack", "Century Gothic";
+	font-size: 3em;
+	text-align: center;
+	margin: 0;
+	color: #44c1e8;
+}
+h3{
+	margin-left: 10%;
+	font-weight: normal;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	margin-top: 50px;
+}
+h4{
+	font-size: 1.2em;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+footer{
+	padding: 0 15% 15px 0px;
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+	color: white;
+}
+
+/* A, hover, focus*/
+a{color: #44c1e8; text-decoration: none;}
+.return{ padding-bottom: 10px;}
+
+/*ALL PAGE CLASSES*/
+#danielle{
+	float: left;
+	margin-top: 0px;
+	padding-top: 0px;
+	font-family: "pacifico", "blackjack", "Century Gothic";
+	font-size: 1.8em;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	margin-left: 1%;
+}
+#danielle a{color: #44c1e8;}
+nav li a{color: #44c1e8;}
+
+/*HOME IDs and CLASSES*/
+#hello{
+	font-size: 8em;
+	color: #44c1e8;
+	padding-top: 5%;
+}
+#info{
+	text-align: center;
+	font-size: 1.4em;
+	font-weight: bold;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+h2, .teaser{
+	padding-left: 5%;
+	padding-top: 20px;
+	padding-right: 8%;
+}
+.teaser{font-size: 1.2em;}
+
+/*ABOUT ME*/
+.about{
+	width: 70%;
+	padding-top: 25px;
+	margin: 0 auto;
+}
+#aboutImage{margin-top: 20px;}
+
+/*RESUME*/
+#resume-wrapper{margin-left: 20%;}
+#resume-wrapper a{color: #44c1e8;}
+#resume-img{padding-top: 20px;}
+
+/*PROJECTS CLASSES AND IDs*/
+.tmbs{margin-left: 12%;}
+.project-p{margin-left: 12%; margin-right: 12%;}
+#asterisk{
+	margin: 0 10%;
+	padding: 30px 0;
+	font-size: 1em;
+}
+.return{margin-left: 12%;}
+.return a{color: #44c1e8;}
+.return a:hover, .return a:focus{color: black; font-weight: bold;}
+.web-links{font-weight: bold;}
+#sat-new, #dante, #quiz, #hoc, #cuesps, #swcta, #portrait, #infographic, #spp, #nacte, 
+#card, #fineart, #fable, #brianhead, #shootergame, #theme, #marketingeducation, #lvgea, 
+#olympics, #desertdoggies, #skills, #enviro, #tagon, #infocus{
+	display: none;
+}
+.pointer{cursor: pointer; cursor: hand; /*To satisfy other browsers*/}
+.bold{font-weight: bold;}
+.project-h2{font-size: 1.8em;}
+
+/*CONTACT CLASSES AND IDs*/
+#contact{
+	margin-left: 25%;
+	margin-top: 20px;
+	padding-top: 20px;
+	width: 51%;
+}
+#contact p{font-size: 1.2em;}
+#contact a{color: #44c1e8;}
+	/*FORM*/
+	form{
+		margin-left: 25%;
+		padding-top: 25px;
+		padding-bottom: 25px;
+	}
+	button{border-radius: 5px;}
+
+/*NEW*/
+#sun{
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 25%;
+	z-index: -1;
+}
+#grass, #grasshome{
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+}
+#grass{height: 100px;}
+#grasshome{height: 15%}
+#tagonpage{margin-top: 5%;}
+#resumeleft{text-align: right;padding-right: 2%;}
+#resumeright{padding-left: 2%; border-left:2px solid #000;}
+#objective{width: 80%; margin: 0 auto; }
+#tagoncontainer, #studioccontainer{width: 75%; margin: 0 auto;}
+#tagonlink{text-align: center;}
+#StudioC{width: 50%;}
+#resumeright li{font-size: 1.2em;}
+#resumecontainer{
+	display: flex;
+	width: 74%;
+	margin-left: 13%;
+	margin-right: 13%;
+}
+
+/*RESPONSIVE*/
+@media screen and (max-width: 320px){
+	body{font-size: 12px;}
+	#hello{font-size: 5em;}
+	nav ul{display: flex; flex-direction: column; font-size: 16px; padding-top: 10%;}
+	#aboutImage{width:80%; height: 80%;}
+	.about{width: 80%; padding-top: 10px;}
+	#resumecontainer{display: block;}
+	#resumeleft{text-align: center;}
+	#resumeright{border-left: none;}
+	.tmbs img{margin-left: 0px; margin: 0 auto; width: 80%; height: 80%;}
+	.project-p, #asterisk{font-size: 1.4em;}
+	#tagonpage{display: none;}
+	#tagoncontainer, #studioccontainer{font-size: 1.3em;}
+	#StudioC{width: 80%}
+	#contact{width: 80%; margin-left: 10%; font-size: 1.3em;}
+	form{margin-left: 8%; font-size: 1.3em;}
+}
+@media screen and (min-width: 321px) and (max-width: 480px){
+	body{font-size: 14px; margin-bottom: 20%;}
+	#hello{font-size: 5em;}
+	nav ul{display: flex; flex-direction: column; font-size: 16px; padding-top: 15%;}
+	#aboutImage{width:80%; height: 80%;}
+	.about{width: 80%; padding-top: 10px;}
+	#resumecontainer{display: block;}
+	#resumeleft{text-align: center;}
+	#resumeright{border-left: none;}
+	.tmbs img{margin-left: 0px; margin: 0 auto; width: 80%; height: 80%;}
+	.project-p, #asterisk{font-size: 1.4em;}
+	#tagonpage{display: none;}
+	#tagoncontainer, #studioccontainer, #contact li{font-size: 1.1em;}
+	#StudioC{width: 80%;}
+	#contact{width: 80%; margin-left: 10%; font-size: 1.1em;}
+	form{margin-left: 8%; font-size: 1.1em;}
+}
+@media screen and (min-width: 481px) and (max-width: 768px){
+	nav ul{padding-top: 50px;}
+	.about{width: 75%; padding-top: 10px;}
+	#resumecontainer{display: block;}
+	#resumeleft{text-align: center;}
+	#resumeright{border-left: none;}
+	#asterisk{font-size: 1.2em;}
+	#StudioC{width: 70%;}
+	#contact{width: 70%; margin-left: 15%;}
+	form{margin-left: 12%;}
+}
+@media screen and (min-width: 769px) and (max-width: 960px){
+	nav ul{padding-top: 50px;}
+	.about{width: 70%; padding-top: 10px;}
+	#asterisk{font-size: 1.2em;}
+	#StudioC{width: 60%}
+}
+@media screen and (min-width: 961px) and (max-width: 1150px){nav ul{padding-top: 50px;}}
+@media screen and (min-width: 961px){#asterisk{font-size: 1.2em;}}
